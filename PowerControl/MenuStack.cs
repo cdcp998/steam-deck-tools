@@ -115,7 +115,7 @@ namespace PowerControl
                         var refreshRate = DisplayResolutionController.GetRefreshRate();
                         return new object[]
                         {
-                            refreshRate / 4, refreshRate / 2, refreshRate, "Off"
+                            refreshRate / 4, refreshRate / 2, refreshRate / 1.5, refreshRate, "Off"
                         };
                     },
                     CurrentValue = delegate()
